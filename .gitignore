@@ -1,0 +1,11 @@
+.DS_STORE
+/venv
+*.swp
+*.rbc
+*.sass-cache
+/pkg
+/Gemfile.lock
+/coverage
+.yardoc
+/doc
+.idea/
