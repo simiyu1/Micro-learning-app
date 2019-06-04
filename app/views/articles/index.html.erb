@@ -1,0 +1,13 @@
+<h1></h1>
+<h1>Welcome to Your Article List</h1>
+  <ol>
+  <% Array(@articles).each do |articles|%>
+    <li>
+      <a href="/articles/<%= articles.id%>">
+        <%=articles.tags%>
+      </a>
+    </li>
+    <%end%>
+  </ol>
+<br />
+  <input type="submit" value="signout">
