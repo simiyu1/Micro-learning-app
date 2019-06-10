@@ -24,6 +24,8 @@ gem "bcrypt"
 # allow require all
 gem "require_all"
 
+# Add Coveralls
+gem 'coveralls', require: false
 
 
 # With this we are going to require tux only on development mode.
