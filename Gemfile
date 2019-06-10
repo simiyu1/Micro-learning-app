@@ -27,6 +27,9 @@ gem "require_all"
 # Add Coveralls
 gem 'coveralls', require: false
 
+gem 'rake'
+
+gem 'sqlite3'
 
 # With this we are going to require tux only on development mode.
 # tux is a tool that allows you to interact with your Sinatra app from a command line

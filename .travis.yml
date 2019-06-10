@@ -7,7 +7,10 @@ before_install:
   - gem install bundler
 
 script:
-  - bundle exec rspec
+  - bundle exec rspec spec/*
 
 after_script:
-  - bundle exec rake coveralls:push
+  - bundle exec coveralls push
+
+after_success:
+- CI=true TRAVIS=true coveralls --verbose
