@@ -10,13 +10,14 @@
 <body>
   <div class="wrapper">
       <% if signed_in? %>
-          <nav>
-            <button><a href="/articles/new"> Create New article </a></button>
-            <button><a href="/signout"> Sign-Out </a></button>
-            <button><a href="/users/<%=current_user.id %>"> Edit-Profile </a></button>
-            <button><a href="/articles"> Show-My-articles </a></button>
-            <p>Welcome, <strong><%=current_user.username.upcase %></strong></p>
-          </nav>
+      <div id="head">
+        <ul id="navbar">
+        <li class="nav-list-item"><a href="/articles"> Show-My-articles</a></li>
+        <li class="nav-list-item"><a href="/articles/new">Add a new tag</a></li>
+        <li class="nav-list-item"><a href="/users/<%=current_user.id %>"> Edit-Profile </a></li>
+        <li class="nav-list-item"><a href="/signout">Sign-Out</a></li>
+        </ul>
+          </div>
       <%end %>
 
       <%= yield %>
