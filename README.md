@@ -87,7 +87,7 @@ Run the Instrumentation tests in terminal using the command
 
 ## Deployment
 
- - in progress
+ - Try it in [Heroku Live](https://whispering-cove-23144.herokuapp.com/signup)
 
 
 ## Built With
