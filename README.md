@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/simiyu1/Micro-learning-app/badge.svg?branch=develop)](https://coveralls.io/github/simiyu1/Micro-learning-app?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/simiyu1/Micro-learning-app/badge.svg?branch=develop)](https://coveralls.io/github/simiyu1/Micro-learning-app?branch=develop) [![Build Status](https://travis-ci.com/simiyu1/Micro-learning-app.svg?branch=develop)](https://travis-ci.com/simiyu1/Micro-learning-app) [![codecov](https://codecov.io/gh/simiyu1/Micro-learning-app/branch/develop/graph/badge.svg)](https://codecov.io/gh/simiyu1/Micro-learning-app)
 # Micro-Learning Application
 
 Micro-Learning app is a responsive web application that sends you one page per day about something you want to learn. Could be: a new Language, a random Wikipedia page, React documentation, a page from the CIA World Factbook, anything! 
