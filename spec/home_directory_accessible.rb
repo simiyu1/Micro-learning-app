@@ -18,7 +18,7 @@ describe UsersController do
   it "responds with a register message" do
     get '/signup'
     expect(last_response.status).to eq(200)
-    expect(last_response.body).to include("Sign-Up to TODO app")
+    expect(last_response.body).to include("Join Micro-learning")
   end
 end
 
