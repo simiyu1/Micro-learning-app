@@ -27,6 +27,9 @@ gem "require_all"
 # Add Coveralls
 gem 'coveralls', require: false
 
+# Add CodeCov
+gem 'codecov', :require => false, :group => :test
+
 gem 'rake'
 
 gem 'sqlite3'
@@ -36,7 +39,6 @@ gem 'sqlite3'
 # We are going to use that to insert/fill our DB and test a few things.
 group :development do
  gem "tux"
- gem "sqlite3"
  gem "pry"
 end
 
