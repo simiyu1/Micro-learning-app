@@ -1,9 +1,12 @@
 # Gemfile
+ruby "2.6.1"
 
 source 'https://rubygems.org'
 
 # SinatraRB Framework
 gem "sinatra"
+
+gem "bundler"
 
 # Our database gem/mapper/model
 gem "activerecord"
@@ -32,7 +35,7 @@ gem 'codecov', :require => false, :group => :test
 
 gem 'rake'
 
-gem 'sqlite3'
+
 
 # With this we are going to require tux only on development mode.
 # tux is a tool that allows you to interact with your Sinatra app from a command line
